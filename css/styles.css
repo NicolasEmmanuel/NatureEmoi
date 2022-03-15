@@ -1,0 +1,51 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap);
+
+*{
+    font-family: 'Monserrat';
+}
+
+body{
+    margin: 0 auto;
+}
+
+/*Tete de page*/
+header.header{
+    display: flex;
+    align-items: center;
+    
+}
+
+header.header img{
+    width: 150px;
+}
+
+section.top-page{
+    background: url('../images/bg.jpg');
+    background-size: cover;
+    height: 80vh;
+    padding: 25px;
+}
+
+/*Page de bienvenue (landing page)*/
+
+.big-title{
+    color: white;
+    font-size: 40px;
+    font-family: 'Abril FatFace'; 
+    padding: 10px 180px;  
+}
+
+/*Menu de navigation*/
+
+nav.nav{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 400px;
+    margin-left: 30px;
+}
+
+nav.nav li{
+    color: white;
+}
